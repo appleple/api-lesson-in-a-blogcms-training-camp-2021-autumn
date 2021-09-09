@@ -1,0 +1,41 @@
+{
+  "name": "lesson-api-feature",
+  "version": "1.0.0",
+  "description": "a-blog cms Training Camp 2021 Autumn カスタマイズ講座 「API機能を使って、画面遷移なしで、エントリーのフィルタリングをしよう」のサンプルコード",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production --config webpack.prod.js",
+    "start": "webpack-cli serve --mode development --config webpack.dev.js",
+    "dev": "webpack --watch --mode development --config webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "ui rikuto",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "dotenv-webpack": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-import-resolver-webpack": "^0.13.1",
+    "eslint-webpack-plugin": "^3.0.1",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.4",
+    "core-js": "^3.17.2",
+    "dom-content-loaded": "^1.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

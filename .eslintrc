@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "env": {
+    "browser": true
+  },
+  "parser": "@babel/eslint-parser",
+  "extends": [
+    "airbnb"
+  ],
+  "globals": {
+    "document": true,
+    "window": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prop-types": "off",
+    "react/destructuring-assignment": 0,
+    "no-unused-vars": 0,
+    "max-len": 0,
+    "no-shadow": 0,
+    "no-undef": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "webpack.prod.js"
+      }
+    }
+  }
+}

@@ -1,0 +1,502 @@
+<h3 class="acms-admin-admin-title2">ヒーロー情報設定</h3>
+<table class="acms-admin-table-admin-edit">
+  <tr>
+    <th>身長</th>
+    <td>
+      <input type="number" name="height" value="{height}" class="acms-admin-form-width-mini" />
+      <input type="hidden" name="field[]" value="height" />
+    </td>
+  </tr>
+  <tr>
+    <th>体重</th>
+    <td>
+      <input type="number" name="weight" value="{weight}" class="acms-admin-form-width-mini" />
+      <input type="hidden" name="field[]" value="weight" />
+    </td>
+  </tr>
+  <tr>
+    <th>性別</th>
+    <td>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="gender" value="Male" {gender:checked#Male} id="input-radio-gender-Male" />
+        <label for="input-radio-gender-Male">
+          <i class="acms-admin-ico-radio"></i>男性</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="gender" value="Female" {gender:checked#Female} id="input-radio-gender-Female" />
+        <label for="input-radio-gender-Female">
+          <i class="acms-admin-ico-radio"></i>女性</label>
+      </div>
+      <input type="hidden" name="field[]" value="gender" />
+    </td>
+  </tr>
+  <tr>
+    <th>瞳の色</th>
+    <td>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="yellow" {eye_color:checked#yellow} id="input-radio-eye_color-yellow" />
+        <label for="input-radio-eye_color-yellow">
+          <i class="acms-admin-ico-radio"></i>yellow</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="blue" {eye_color:checked#blue} id="input-radio-eye_color-blue" />
+        <label for="input-radio-eye_color-blue">
+          <i class="acms-admin-ico-radio"></i>blue</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="green" {eye_color:checked#green} id="input-radio-eye_color-green" />
+        <label for="input-radio-eye_color-green">
+          <i class="acms-admin-ico-radio"></i>green</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="brown" {eye_color:checked#brown} id="input-radio-eye_color-brown" />
+        <label for="input-radio-eye_color-brown">
+          <i class="acms-admin-ico-radio"></i>brown</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="red" {eye_color:checked#red} id="input-radio-eye_color-red" />
+        <label for="input-radio-eye_color-red">
+          <i class="acms-admin-ico-radio"></i>red</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="violet" {eye_color:checked#violet} id="input-radio-eye_color-violet" />
+        <label for="input-radio-eye_color-violet">
+          <i class="acms-admin-ico-radio"></i>violet</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="white" {eye_color:checked#white} id="input-radio-eye_color-white" />
+        <label for="input-radio-eye_color-white">
+          <i class="acms-admin-ico-radio"></i>white</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="purple" {eye_color:checked#purple} id="input-radio-eye_color-purple" />
+        <label for="input-radio-eye_color-purple">
+          <i class="acms-admin-ico-radio"></i>purple</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="black" {eye_color:checked#black} id="input-radio-eye_color-black" />
+        <label for="input-radio-eye_color-black">
+          <i class="acms-admin-ico-radio"></i>black</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="grey" {eye_color:checked#grey} id="input-radio-eye_color-grey" />
+        <label for="input-radio-eye_color-grey">
+          <i class="acms-admin-ico-radio"></i>grey</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="silver" {eye_color:checked#silver} id="input-radio-eye_color-silver" />
+        <label for="input-radio-eye_color-silver">
+          <i class="acms-admin-ico-radio"></i>silver</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="gold" {eye_color:checked#gold} id="input-radio-eye_color-gold" />
+        <label for="input-radio-eye_color-gold">
+          <i class="acms-admin-ico-radio"></i>gold</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="hazel" {eye_color:checked#hazel} id="input-radio-eye_color-hazel" />
+        <label for="input-radio-eye_color-hazel">
+          <i class="acms-admin-ico-radio"></i>hazel</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="indigo" {eye_color:checked#indigo} id="input-radio-eye_color-indigo" />
+        <label for="input-radio-eye_color-indigo">
+          <i class="acms-admin-ico-radio"></i>indigo</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="amber" {eye_color:checked#amber} id="input-radio-eye_color-amber" />
+        <label for="input-radio-eye_color-amber">
+          <i class="acms-admin-ico-radio"></i>amber</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="eye_color" value="bown" {eye_color:checked#bown} id="input-radio-eye_color-bown" />
+        <label for="input-radio-eye_color-bown">
+          <i class="acms-admin-ico-radio"></i>bown</label>
+      </div>
+      <input type="hidden" name="field[]" value="eye_color" />
+    </td>
+  </tr>
+  <tr>
+    <th>種族</th>
+    <td>
+      <select name="race">
+        <option value=""></option>
+        <option value="Alien" {race:selected#Alien}>Alien</option>
+        <option value="Alpha" {race:selected#Alpha}>Alpha</option>
+        <option value="Amazon" {race:selected#Amazon}>Amazon</option>
+        <option value="Android" {race:selected#Android}>Android</option>
+        <option value="Animal" {race:selected#Animal}>Animal</option>
+        <option value="Asgardian" {race:selected#Asgardian}>Asgardian</option>
+        <option value="Atlantean" {race:selected#Atlantean}>Atlantean</option>
+        <option value="Bizarro" {race:selected#Bizarro}>Bizarro</option>
+        <option value="Bolovaxian" {race:selected#Bolovaxian}>Bolovaxian</option>
+        <option value="Clone" {race:selected#Clone}>Clone</option>
+        <option value="Cosmic Entity" {race:selected#Cosmic Entity}>Cosmic Entity</option>
+        <option value="Cyborg" {race:selected#Cyborg}>Cyborg</option>
+        <option value="Czarnian" {race:selected#Czarnian}>Czarnian</option>
+        <option value="Dathomirian Zabrak" {race:selected#Dathomirian Zabrak}>Dathomirian Zabrak</option>
+        <option value="Demon" {race:selected#Demon}>Demon</option>
+        <option value="Eternal" {race:selected#Eternal}>Eternal</option>
+        <option value="Flora Colossus" {race:selected#Flora Colossus}>Flora Colossus</option>
+        <option value="Frost Giant" {race:selected#Frost Giant}>Frost Giant</option>
+        <option value="God" {race:selected#God }>God</option>
+        <option value="Gorilla" {race:selected#Gorilla}>Gorilla</option>
+        <option value="Gungan" {race:selected#Gungan}>Gungan</option>
+        <option value="Human" {race:selected#Human}>Human</option>
+        <option value="HumanKree" {race:selected#HumanKree}>HumanKree</option>
+        <option value="HumanSpattoi" {race:selected#HumanSpattoi}>HumanSpattoi</option>
+        <option value="HumanVulcan" {race:selected#HumanVulcan}>HumanVulcan</option>
+        <option value="HumanVuldarian" {race:selected#HumanVuldarian}>HumanVuldarian</option>
+        <option value="Icthyo Sapien" {race:selected#Icthyo Sapien}>Icthyo Sapien</option>
+        <option value="inhuman" {race:selected#inhuman}>inhuman</option>
+        <option value="Kaiju" {race:selected#Kaiju}>Kaiju</option>
+        <option value="Kakarantharaian" {race:selected#Kakarantharaian}>Kakarantharaian</option>
+        <option value="Korugaran" {race:selected#Korugaran}>Korugaran</option>
+        <option value="Kryptonian" {race:selected#Korugaran}>Kryptonian</option>
+        <option value="Luphomoid" {race:selected#Luphomoid}>Luphomoid</option>
+        <option value="Maiar" {race:selected#Maiar}>Maiar</option>
+        <option value="Martian" {race:selected#Martian}>Martian</option>
+        <option value="Metahuman" {race:selected#Metahuman}>Metahuman</option>
+        <option value="Mutant" {race:selected#Mutant}>Mutant</option>
+        <option value="New Got" {race:selected#New Got}>New Got</option>
+        <option value="Neyaphem" {race:selected#Neyaphem}>Neyaphem</option>
+        <option value="Parademon" {race:selected#Parademon}>Parademon</option>
+        <option value="Planet" {race:selected#Planet}>Planet</option>
+        <option value="Rodian" {race:selected#Rodian}>Rodian</option>
+        <option value="Saiyan" {race:selected#Saiyan}>Saiyan</option>
+        <option value="Spartoi" {race:selected#Spartoi}>Spartoi</option>
+        <option value="Strontian" {race:selected#Strontian}>Strontian</option>
+        <option value="Symbiote" {race:selected#Symbiote}>Symbiote</option>
+        <option value="Talokite" {race:selected#Talokite}>Talokite</option>
+        <option value="Tamaranean" {race:selected#Tamaranean}>Tamaranean</option>
+        <option value="Tamaranean" {race:selected#Tamaranean}>Ungaran</option>
+        <option value="Vampire" {race:selected#Vampire}>Vampire</option>
+        <option value="Xenomorph XX121" {race:selected#Xenomorph XX121}>Xenomorph XX121</option>
+        <option value="Yautja" {race:selected#Yautja}>Yautja</option>
+        <option value="Yoda&#x27;s species" {race:selected#Yoda&#x27;s species}>Yoda&#x27;s species</option>
+        <option value="ZenWhoberian" {race:selected#ZenWhoberian}>ZenWhoberian</option>
+        <option value="Zombie" {race:selected#Zombie}>Zombie</option>
+      </select>
+      <input type="hidden" name="field[]" value="race" />
+    </td>
+  </tr>
+  <tr>
+    <th>髪の毛の色</th>
+    <td>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="No Hair" {hair_color:checked#No Hair} id="input-checkbox-hair_color-No Hair" />
+        <label for="input-checkbox-hair_color-No Hair">
+          <i class="acms-admin-ico-checkbox"></i>No Hair</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Black" {hair_color:checked#Black} id="input-checkbox-hair_color-Black" />
+        <label for="input-checkbox-hair_color-Black">
+          <i class="acms-admin-ico-checkbox"></i>Black</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Blond" {hair_color:checked#Blond} id="input-checkbox-hair_color-Blond" />
+        <label for="input-checkbox-hair_color-Blond">
+          <i class="acms-admin-ico-checkbox"></i>Blond</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Brown" {hair_color:checked#Brown} id="input-checkbox-hair_color-Brown" />
+        <label for="input-checkbox-hair_color-Brown">
+          <i class="acms-admin-ico-checkbox"></i>Brown</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="White" {hair_color:checked#White} id="input-checkbox-hair_color-White" />
+        <label for="input-checkbox-hair_color-White">
+          <i class="acms-admin-ico-checkbox"></i>White</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Purple" {hair_color:checked#Purple} id="input-checkbox-hair_color-Purple" />
+        <label for="input-checkbox-hair_color-Purple">
+          <i class="acms-admin-ico-checkbox"></i>Purple</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Orange" {hair_color:checked#Orange} id="input-checkbox-hair_color-Orange" />
+        <label for="input-checkbox-hair_color-Orange">
+          <i class="acms-admin-ico-checkbox"></i>Orange</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Pink" {hair_color:checked#Pink} id="input-checkbox-hair_color-Pink" />
+        <label for="input-checkbox-hair_color-Pink">
+          <i class="acms-admin-ico-checkbox"></i>Pink</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Red" {hair_color:checked#Red} id="input-checkbox-hair_color-Red" />
+        <label for="input-checkbox-hair_color-Red">
+          <i class="acms-admin-ico-checkbox"></i>Red</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Auburn" {hair_color:checked#Auburn} id="input-checkbox-hair_color-Auburn" />
+        <label for="input-checkbox-hair_color-Auburn">
+          <i class="acms-admin-ico-checkbox"></i>Auburn</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Strawberry Blond" {hair_color:checked#Strawberry Blond} id="input-checkbox-hair_color-Strawberry Blond" />
+        <label for="input-checkbox-hair_color-Strawberry Blond">
+          <i class="acms-admin-ico-checkbox"></i>Strawberry Blond</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Blue" {hair_color:checked#Blue} id="input-checkbox-hair_color-Blue" />
+        <label for="input-checkbox-hair_color-Blue">
+          <i class="acms-admin-ico-checkbox"></i>Blue</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Green" {hair_color:checked#Green} id="input-checkbox-hair_color-Green" />
+        <label for="input-checkbox-hair_color-Green">
+          <i class="acms-admin-ico-checkbox"></i>Green</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Magenta" {hair_color:checked#Magenta} id="input-checkbox-hair_color-Magenta" />
+        <label for="input-checkbox-hair_color-Magenta">
+          <i class="acms-admin-ico-checkbox"></i>Magenta</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Silver" {hair_color:checked#Silver} id="input-checkbox-hair_color-Silver" />
+        <label for="input-checkbox-hair_color-Silver">
+          <i class="acms-admin-ico-checkbox"></i>Silver</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Grey" {hair_color:checked#Grey} id="input-checkbox-hair_color-Grey" />
+        <label for="input-checkbox-hair_color-Grey">
+          <i class="acms-admin-ico-checkbox"></i>Grey</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Yellow" {hair_color:checked#Yellow} id="input-checkbox-hair_color-Yellow" />
+        <label for="input-checkbox-hair_color-Yellow">
+          <i class="acms-admin-ico-checkbox"></i>Yellow</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Gold" {hair_color:checked#Gold} id="input-checkbox-hair_color-Gold" />
+        <label for="input-checkbox-hair_color-Gold">
+          <i class="acms-admin-ico-checkbox"></i>Gold</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="hair_color[]" value="Indigo" {hair_color:checked#Indigo} id="input-checkbox-hair_color-Indigo" />
+        <label for="input-checkbox-hair_color-Indigo">
+          <i class="acms-admin-ico-checkbox"></i>Indigo</label>
+      </div>
+      <input type="hidden" name="field[]" value="hair_color" />
+    </td>
+  </tr>
+  <tr>
+    <th>制作会社</th>
+    <td>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="Marvel Comics" {publisher:checked#Marvel Comics} id="input-radio-publisher-Marvel Comics" />
+        <label for="input-radio-publisher-Marvel Comics">
+          <i class="acms-admin-ico-radio"></i>Marvel Comics</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="Dark Horse Comics" {publisher:checked#Dark Horse Comics} id="input-radio-publisher-Dark Horse Comics" />
+        <label for="input-radio-publisher-Dark Horse Comics">
+          <i class="acms-admin-ico-radio"></i>Dark Horse Comics</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="DC Comics" {publisher:checked#DC Comics} id="input-radio-publisher-DC Comics" />
+        <label for="input-radio-publisher-DC Comics">
+          <i class="acms-admin-ico-radio"></i>DC Comics</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="NBC  Heroes" {publisher:checked#NBC Heroes} id="input-radio-publisher-NBC  Heroes" />
+        <label for="input-radio-publisher-NBC  Heroes">
+          <i class="acms-admin-ico-radio"></i>NBC Heroes</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="Wildstorm" {publisher:checked#Wildstorm} id="input-radio-publisher-Wildstorm" />
+        <label for="input-radio-publisher-Wildstorm">
+          <i class="acms-admin-ico-radio"></i>Wildstorm</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="Image Comics" {publisher:checked#Image Comics} id="input-radio-publisher-Image Comics" />
+        <label for="input-radio-publisher-Image Comics">
+          <i class="acms-admin-ico-radio"></i>Image Comics</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="Icon Comics" {publisher:checked#Icon Comics} id="input-radio-publisher-Icon Comics" />
+        <label for="input-radio-publisher-Icon Comics">
+          <i class="acms-admin-ico-radio"></i>Icon Comics</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="SyFy" {publisher:checked#SyFy} id="input-radio-publisher-SyFy" />
+        <label for="input-radio-publisher-SyFy">
+          <i class="acms-admin-ico-radio"></i>SyFy</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="HannaBarbera" {publisher:checked#HannaBarbera} id="input-radio-publisher-HannaBarbera" />
+        <label for="input-radio-publisher-HannaBarbera">
+          <i class="acms-admin-ico-radio"></i>HannaBarbera</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="George Lucas" {publisher:checked#George Lucas} id="input-radio-publisher-George Lucas" />
+        <label for="input-radio-publisher-George Lucas">
+          <i class="acms-admin-ico-radio"></i>George Lucas</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="Team Epic TV" {publisher:checked#Team Epic TV} id="input-radio-publisher-Team Epic TV" />
+        <label for="input-radio-publisher-Team Epic TV">
+          <i class="acms-admin-ico-radio"></i>Team Epic TV</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="South Park" {publisher:checked#South Park} id="input-radio-publisher-South Park" />
+        <label for="input-radio-publisher-South Park">
+          <i class="acms-admin-ico-radio"></i>South Park</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="HarperCollins" {publisher:checked#HarperCollins} id="input-radio-publisher-HarperCollins" />
+        <label for="input-radio-publisher-HarperCollins">
+          <i class="acms-admin-ico-radio"></i>HarperCollins</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="ABC Studios" {publisher:checked#ABC Studios} id="input-radio-publisher-ABC Studios" />
+        <label for="input-radio-publisher-ABC Studios">
+          <i class="acms-admin-ico-radio"></i>ABC Studios</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="Universal Studios" {publisher:checked#Universal Studios} id="input-radio-publisher-Universal Studios" />
+        <label for="input-radio-publisher-Universal Studios">
+          <i class="acms-admin-ico-radio"></i>Universal Studios</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="IDW Publishing" {publisher:checked#IDW Publishing} id="input-radio-publisher-IDW Publishing" />
+        <label for="input-radio-publisher-IDW Publishing">
+          <i class="acms-admin-ico-radio"></i>IDW Publishing</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="Shueisha" {publisher:checked#Shueisha} id="input-radio-publisher-Shueisha" />
+        <label for="input-radio-publisher-Shueisha">
+          <i class="acms-admin-ico-radio"></i>Shueisha</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="Sony Pictures" {publisher:checked#Sony Pictures} id="input-radio-publisher-Sony Pictures" />
+        <label for="input-radio-publisher-Sony Pictures">
+          <i class="acms-admin-ico-radio"></i>Sony Pictures</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="J. K. Rowling" {publisher:checked#J. K. Rowling} id="input-radio-publisher-J. K. Rowling" />
+        <label for="input-radio-publisher-J. K. Rowling">
+          <i class="acms-admin-ico-radio"></i>J. K. Rowling</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="Titan Books" {publisher:checked#Titan Books} id="input-radio-publisher-Titan Books" />
+        <label for="input-radio-publisher-Titan Books">
+          <i class="acms-admin-ico-radio"></i>Titan Books</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="Rebellion" {publisher:checked#Rebellion} id="input-radio-publisher-Rebellion" />
+        <label for="input-radio-publisher-Rebellion">
+          <i class="acms-admin-ico-radio"></i>Rebellion</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="Microsoft" {publisher:checked#Microsoft} id="input-radio-publisher-Microsoft" />
+        <label for="input-radio-publisher-Microsoft">
+          <i class="acms-admin-ico-radio"></i>Microsoft</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="publisher" value="J. R. R. Tolkien" {publisher:checked#J. R. R. Tolkien} id="input-radio-publisher-J. R. R. Tolkien" />
+        <label for="input-radio-publisher-J. R. R. Tolkien">
+          <i class="acms-admin-ico-radio"></i>J. R. R. Tolkien</label>
+      </div>
+      <input type="hidden" name="field[]" value="publisher" />
+    </td>
+  </tr>
+  <tr>
+    <th>肌の色</th>
+    <td>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="blue" {skin_color:checked#blue} id="input-checkbox-skin_color-blue" />
+        <label for="input-checkbox-skin_color-blue">
+          <i class="acms-admin-ico-checkbox"></i>blue</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="red" {skin_color:checked#red} id="input-checkbox-skin_color-red" />
+        <label for="input-checkbox-skin_color-red">
+          <i class="acms-admin-ico-checkbox"></i>red</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="black" {skin_color:checked#black} id="input-checkbox-skin_color-black" />
+        <label for="input-checkbox-skin_color-black">
+          <i class="acms-admin-ico-checkbox"></i>black</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="grey" {skin_color:checked#grey} id="input-checkbox-skin_color-grey" />
+        <label for="input-checkbox-skin_color-grey">
+          <i class="acms-admin-ico-checkbox"></i>grey</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="gold" {skin_color:checked#gold} id="input-checkbox-skin_color-gold" />
+        <label for="input-checkbox-skin_color-gold">
+          <i class="acms-admin-ico-checkbox"></i>gold</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="green" {skin_color:checked#green} id="input-checkbox-skin_color-green" />
+        <label for="input-checkbox-skin_color-green">
+          <i class="acms-admin-ico-checkbox"></i>green</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="white" {skin_color:checked#white} id="input-checkbox-skin_color-white" />
+        <label for="input-checkbox-skin_color-white">
+          <i class="acms-admin-ico-checkbox"></i>white</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="pink" {skin_color:checked#pink} id="input-checkbox-skin_color-pink" />
+        <label for="input-checkbox-skin_color-pink">
+          <i class="acms-admin-ico-checkbox"></i>pink</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="silver" {skin_color:checked#silver} id="input-checkbox-skin_color-silver" />
+        <label for="input-checkbox-skin_color-silver">
+          <i class="acms-admin-ico-checkbox"></i>silver</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="yellow" {skin_color:checked#yellow} id="input-checkbox-skin_color-yellow" />
+        <label for="input-checkbox-skin_color-yellow">
+          <i class="acms-admin-ico-checkbox"></i>yellow</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="purple" {skin_color:checked#purple} id="input-checkbox-skin_color-purple" />
+        <label for="input-checkbox-skin_color-purple">
+          <i class="acms-admin-ico-checkbox"></i>purple</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="Orange" {skin_color:checked#Orange} id="input-checkbox-skin_color-Orange" />
+        <label for="input-checkbox-skin_color-Orange">
+          <i class="acms-admin-ico-checkbox"></i>Orange</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="gray" {skin_color:checked#gray} id="input-checkbox-skin_color-gray" />
+        <label for="input-checkbox-skin_color-gray">
+          <i class="acms-admin-ico-checkbox"></i>gray</label>
+      </div>
+      <div class="acms-admin-form-checkbox">
+        <input type="checkbox" name="skin_color[]" value="bluewhite" {skin_color:checked#bluewhite} id="input-checkbox-skin_color-bluewhite" />
+        <label for="input-checkbox-skin_color-bluewhite">
+          <i class="acms-admin-ico-checkbox"></i>bluewhite</label>
+      </div>
+      <input type="hidden" name="field[]" value="skin_color" />
+    </td>
+  </tr>
+  <tr>
+    <th>全体的な位置付け</th>
+    <td>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="alignment" value="good" {alignment:checked#good} id="input-radio-alignment-good" />
+        <label for="input-radio-alignment-good">
+          <i class="acms-admin-ico-radio"></i>good</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="alignment" value="bad" {alignment:checked#bad} id="input-radio-alignment-bad" />
+        <label for="input-radio-alignment-bad">
+          <i class="acms-admin-ico-radio"></i>bad</label>
+      </div>
+      <div class="acms-admin-form-radio">
+        <input type="radio" name="alignment" value="neutral" {alignment:checked#neutral} id="input-radio-alignment-neutral" />
+        <label for="input-radio-alignment-neutral">
+          <i class="acms-admin-ico-radio"></i>neutral</label>
+      </div>
+      <input type="hidden" name="field[]" value="alignment" />
+    </td>
+  </tr>
+</table>
