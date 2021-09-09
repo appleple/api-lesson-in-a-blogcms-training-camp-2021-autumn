@@ -15,13 +15,13 @@ git clone https://github.com/appleple/api-lesson-in-a-blogcms-training-camp-2021
 [ダウンロードはこちら](https://github.com/appleple/api-lesson-in-a-blogcms-training-camp-2021-autumn/archive/master.zip)
 
 ### 事前準備
-ダウンロードしたリポジトリで作業する前に a-blog cms でAPI機能を使用する事前準備として以下の6点の作業をご自分の a-blog cms の環境で行います。
+ダウンロードしたリポジトリで作業する前に a-blog cms でAPI機能を使用する事前準備として以下の5点の作業をご自分の a-blog cms の環境で行います。
 
 1. assetディレクトリ内にある `field-hero.html` でエントリーのカスタムフィールドを作成する
 2. assetディレクトリ内にある `heroes_info.csv`をcsvインポートの機能を用いてインポートする
 3. コンフィグ > 一般設定 > API設定からAPI機能を有効にする
 4. Allow-Origin に `localhost:8080` を追加して保存する
-5. summary_hero_index というIDで Entry_Summary のモジュールIDを作成する。その際、URLコンテキストのフィールドとページにはチェックを付ける
+5. summary_hero_index というIDで Entry_Summary のモジュールIDを作成する。その際、URLコンテキストのフィールドとページ、表示設定の「リクエストに404 Not Foundとして応答する」にチェックを付ける
 
 ## このリポジトリでの作業
 
