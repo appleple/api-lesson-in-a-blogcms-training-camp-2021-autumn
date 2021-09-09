@@ -24,7 +24,7 @@ const ShowMoreButton = ({ setHeroes, setIsShowMore, text }) => {
       .map((obj) => `/${obj.field}/${obj.keywords.join('/')}`)
       .join('/_and_')}/page/${page}`;
 
-    console.log(endpoint);
+    // console.log(endpoint);
 
     get(endpoint).then(({ data: { 'entry:loop': result, lastPage } }) => {
       setIsLoading(false);

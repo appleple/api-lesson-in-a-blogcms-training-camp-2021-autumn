@@ -1,5 +1,4 @@
 const ESLintPlugin = require('eslint-webpack-plugin');
-const pkg = require('./package.json');
 const Dotenv = require('dotenv-webpack');
 
 module.exports = {
@@ -12,7 +11,6 @@ module.exports = {
   output: {
     path: `${__dirname}/dest/`,
     filename: '[name].js',
-    chunkFilename: `[name].chunk.js?date=${new Date().getTime()}`,
   },
   optimization: {
     splitChunks: {

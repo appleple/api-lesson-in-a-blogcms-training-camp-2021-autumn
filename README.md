@@ -37,7 +37,7 @@ touch .env
 
 `.env` ファイルに API-KEY を設定します。（API-KEY は a-blog cms 管理画面のコンフィグ > 一般設定 > API設定から確認できます。）
 ```env
-API_KEY = 'ここにAPI-KEYを記載してください'
+API_KEY = ここにAPI-KEYを記載してください
 ```
 
 `src/common.js` の `http://6zgkhz8h.ablogcms.io` の部分をご自身でAPI機能を有効にしたa-blog cmsのURLに書き換える

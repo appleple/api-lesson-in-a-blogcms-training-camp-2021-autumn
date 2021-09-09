@@ -25,7 +25,7 @@ const HeroesIndex = () => {
     const endpoint = Object.values(conditions)
       .map((obj) => `/${obj.field}/${obj.keywords.join('/')}`)
       .join('/_and_');
-    console.log(endpoint);
+    // console.log(endpoint);
     setIsLoaded(false);
     get(endpoint).then(
       ({ data: { 'entry:loop': result, lastPage } }) => {
